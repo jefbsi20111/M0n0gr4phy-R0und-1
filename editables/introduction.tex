@@ -1,0 +1,41 @@
+\chapter[Introdução]{Introdução}
+%\addcontentsline{toc}{section}{Introdução}
+
+\par Discorrer sobre dificuldade de organização de tarefas em uma agenda, considerando a ordem de importância das tarefas. Para tal, deverei falar sobre uma forma de converter essa ordem de importância para um valor numérico e utilizar algoritmos genéticos para organizar essa agenda.
+\par Contextualizar o problema de agendamento de tarefas como um todo, utilizando um bom espaço.
+
+
+
+\section[Tema]{Tema}
+\par Desenvolver uma solução, baseada em algoritmos genéticos, que realize o escalonamento automático de tarefas através, cujo foco é otimizar à ordem de realização de tarefas, priorizando a execução de tarefas dentro de seu prazo limite e o conseqüente aprimoramento da gestão do tempo no ambiente acadêmico.
+
+\section[Contextualização e Problema]{COntextualização e Problema}
+\par O problema abordado neste trabalho é o de escalonamento de horários proporcionado por uma solução heurística, baseada em algoritmos genéticos, que priorize a gestão de limites de prazo ou prazo limite (deadlines) e propicie o melhor aproveitamento de tempo na gestão de responsabilidades do âmbito acadêmico.
+
+
+\section[Objetivos da Pesquisa]{Objetivos da Pesquisa}
+\par Os objetivos deste trabalho segmentam-se em objetivo geral e objetivos específicos.
+
+\subsection[Objetivo Geral]{Objetivo Geral}
+\par O presente trabalho tem por objetivo geral investigar a utilização de algoritmos genéticos na resolução do problema de agendamento de tarefas em ambiente acadêmico de ensino superior, onde a solução aplicada realize a distribuição das tarefas de acordo com seu prazo limite, seu grau de urgência e o máximo aproveitamento de horários disponíveis, proporcionando otimização do uso de tempo por intermédio da organização de responsabilidades acadêmicas.
+
+\subsection[Objetivos Especificos]{Objetivos Especificos}
+\begin{alineas}
+	\item Definir uma representação cromossômica que permita e descrição de uma escala de tarefas;
+    \item Selecionar os operadores genéticos mais adequados, dentre os operadores disponíveis;
+    \item Definir uma função de avaliação que priorize o término das tarefas dentro de um prazo limite, observando seu grau de urgência, e favorer a otimização do uso de tempo por meio de uma organização aprimorada;
+    \item Desenvolver um algoritmo genético que aprimore a organização de tarefas, evitando que ocorram horários não aproveitados para a execução de tarefas, assim como a perda de seus prazos, priorizando tarefas mais urgentes;
+    \item valiar o algoritmo desenvolvido através de testes e comparação de seus resultados com de outros métodos, como o método manual de montagem de horários, algoritmo guloso e .
+\end{alineas}
+
+
+\section[Delimitação do Estudo]{Delimitação do Estudo}
+\par A definição de escalonamento de horários correlaciona-se com a definição de cronograma, onde há uma quantidade de trabalhos a serem organizados em uma ordem que considere fatores pertinentes como prazo limite e tempo necessário. Embora o problema de montagem de cronograma seja comum a qualquer pessoa, o presente trabalho limita-se ao ambiente acadêmico de ensino superior, devido ao fato deste ambiente fornecer os recursos e restrições necessários para que a proposta possa ser testada e aplicada.
+\par O ambiente acadêmico de graduação possui grande variedade de obrigações com prazos preestabelecidos ou desejáveis, como: estudo de conteúdo antes de aulas, preparo para provas e avaliações, entrega de trabalhos de disciplinas, submissão ou apresentação de artigos, orientações, reuniões de grupo de trabalho, etcétera. Essas tarefas devem ser organizadas de acordo com seu prazo limite e a quantidade de tempo necessário para sua execução. Onde as porções de tempo disponíveis durante os dias levarão em conta a existência de atribuições caracterizadas como frequentes como, por exemplo, bolsas de pesquisa, aulas, vínculos empregatícios, entre outros de caráter obrigatório e inadiável.
+
+\section[Motivação e Justificativa]{Motivação e Justificativa}
+\par A universidade é um ambiente de desenvolvimento cientifico, e aprimoramento do caráter profissional, em que o acadêmico busca por meio de contínua especialização, edificar sua carreira nesse meio. Para tal o mesmo deve dispor-se a cumprir demasiadas tarefas, assim como, obrigações próprias da vida acadêmica. Castiel (CASTIEL LD et AL, 2007), discute que no meio acadêmico-científico fatores que irão determinar à influência de um pesquisador é o real valor de sua produção cientifica, em outras palavras, o quanto seu trabalho contribui e é referenciado dentro do seu campo de atuação. Deste modo, o bom desempenho do acadêmico com relação a suas obrigações torna-se fator imprescindível a sua reputação como pesquisador e seu bom conceito enquanto membro da comunidade. O qual seu desempenho está diretamente ligado ao cumprimento de metas e prazos, e para tal deve manter um rígido controle sobre suas responsabilidades, documentando-as em meio físico ou digital.
+\par Escrever um artigo científico, por exemplo, é uma tarefa que demanda certo esforço e pode ser fragmentada em várias outras sub-tarefas, como definição de um tema, pesquisa de fontes, estudo e resumo de material, escrita e correção, assim como realinhamento e produção da versão final. Realizar essas tarefas em paralelo com outros deveres da vida acadêmica como preparar-se para aulas, e ainda ter de lidar com obrigações de cunho pessoal ou outras inadiáveis, torna necessário a utilização de uma forma de organizar essas responsabilidades de uma forma que favoreça suas consecuções.
+\par Com o propósito de efetuar a organização de tarefas, o cronograma caracteriza-se como uma excelente opção, pois, o mesmo é tido como uma ferramenta de gestão, normalmente apresentado sob a forma de tabela, que contempla o tempo em que as atividades irão ser realizadas. Porém, a montagem de um cronograma pode não ser uma tarefa tão simples. Ao organizar tarefas, existem fatores, ou restrições, a serem consideradas, como: prazo limite da tarefa, seu grau de importância e quantidade de tempo que será despendido. Em que esses fatores podem ser influenciados por outros fatores a se considerar, por exemplo, a complexidade da tarefa influenciará a quantidade de tempo necessário para a consecução, o que determinará o prazo limite. E atrasos em tarefas ou imprecisão na estimativa do tempo necessário, impactam diretamente no grau de importância, ocasionando a necessidade de uma reorganização e adequação dos novos prazos e demandas ao rol.
+\par Apesar disso, as soluções adotadas atualmente, sejam elas em meios físicos ou digitais, não consideram a dinamicidade da natureza dos cronogramas, caracterizada pela possibilidade de reorganização e adequação. Desta forma, a montagem de um cronograma contendo imprecisões, poderá ocasionar o retrabalho da montagem. Onde esse retrabalho pode gerar mais retrabalho devido a uma organização mal feita ou, ainda, gerar cronogramas que não aproveitem bem os recursos de tempo e esforço, vindo a ocasionar atrasos ou outros transtornos.
+\par Estes motivos justificam a realização deste trabalho, com intuito de propor uma solução para este problema, tendo em vista a complexidade do problema e a natureza da solução proposta, pois, há a necessidade de gerir responsabilidades e o tempo necessário para atendê-las. Deste modo, proporcionado redução no esforço, diminuição do tempo ocioso entre tarefas, e permitindo de forma rápida e eficaz a simulação do trabalho de reorganização do cronograma.

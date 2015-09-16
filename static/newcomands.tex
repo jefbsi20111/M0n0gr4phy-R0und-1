@@ -1,0 +1,38 @@
+\newcommand{\curso}[1]{\def\imprimircurso{#1}}
+
+\newcommand{\palavraChaveUm}[1]{\def\imprimirpalavrachaveum{#1}}
+\newcommand{\palavraChaveDois}[1]{\def\imprimirpalavrachavedois{#1}}
+
+\newcommand{\cdu}[1]{\def\nomecdu{#1}}
+\newcommand{\dataDaAprovacao}[1]{\def\imprimirdatadaaprovacao{#1}}
+
+\newcommand{\membroConvidadoUm}[1]{\def\imprimirmembroconvidadoum{#1}}
+\newcommand{\membroConvidadoDois}[1]{\def\imprimirmembroconvidadodois{#1}}
+
+\renewcommand{\imprimircapa}{%
+  \begin{capa}%
+  
+  \vspace{3cm}
+  \begin{figure}[!t]
+    	\centering
+        \includegraphics[width=2cm,height=2.5cm]	{figuras/ufrn-logo.jpg}
+    \end{figure}
+    
+    \center
+	{\textbf{\large\imprimirinstituicao}}
+    
+    \vspace{3cm}
+    {\textbf{{\large{\imprimirautor}}}}
+
+	\vspace{2.cm}
+
+    {\ABNTEXchapterfont\bfseries\Large\imprimirtitulo}
+    \vspace*{\fill}\
+  		
+    \vspace*{2cm}
+    \textbf{{\large\imprimirlocal}}
+    \par
+    \textbf{{\large\imprimirdata}}    
+    \vspace*{2cm}
+  \end{capa}
+}
